@@ -1,0 +1,89 @@
+.wraper{
+	width: 100%;
+	margin: 0;
+	overflow: auto;
+
+}
+.header{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	height: 60PX;
+		border: 1px solid gray;
+}
+.header h2{
+	color: blue;
+}
+.container{
+	width: 60%;
+	margin: auto;
+}
+.login{
+
+	width: 100%;
+	margin: auto;
+	padding:  10px 0px;
+}
+ h3{
+	border-bottom: 1px solid gray;
+	color: gray;
+}
+ input{
+
+	padding: 7px 10px;
+	display: list-item;
+	border-radius: 0px;
+	margin: 1px;
+	border: 1px solid gray;
+	color: gray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+label{
+
+	width: 100%;
+	font-size: 14px;
+	color: gray;
+
+}
+.singup{
+
+
+}
+button{
+	border: 1px solid gray;
+	padding: 8px 25px;
+	color: gray;
+	background: none;
+}
+button:hover{
+	background: black;
+	color: white;
+	border: none;
+
+}
+ .success{
+	background-color: #008080;
+	color: white;
+	border: none;
+}
+
+ .info{
+	background-color: #1a8cff;
+	color: white;
+	border: none;
+}
+
+.box_left{
+float: left;
+}
+.box_right{
+float: right;
+}
+.box_full{
+
+	width: 100%;
+	display: flex;
+
+}
